@@ -1,0 +1,3 @@
+class {{feature.pascalCase()}}RemoteSource {
+  
+}
