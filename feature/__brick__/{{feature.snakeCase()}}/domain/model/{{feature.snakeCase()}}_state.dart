@@ -13,7 +13,7 @@ class {{feature.pascalCase()}}State extends Equatable {
   final {{feature.pascalCase()}}Status status;
 
   const {{feature.pascalCase()}}State ({
-    this.status = {{feature.pascalCase()}}Status.idle;
+    this.status = {{feature.pascalCase()}}Status.idle,
   });
 
   @override
