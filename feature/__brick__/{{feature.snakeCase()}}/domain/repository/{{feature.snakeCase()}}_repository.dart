@@ -1,3 +1,3 @@
-abstract class {{feature.pascalCase()}} {
-  
+abstract class {{feature.pascalCase()}}Repository {
+
 }
