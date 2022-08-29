@@ -27,7 +27,7 @@ To use the boilerplate code generator
        |  └──calculator_service_locator.dart
        ├──domain
        |  └──exception
-       |     └──default_calculator_exception.dart
+       |  |  └──default_calculator_exception.dart
        |  ├──model
        |  |  └──calculator.dart
        |  |  └──calculator_state.dart
