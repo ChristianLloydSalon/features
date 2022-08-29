@@ -4,4 +4,4 @@ import '../data/remote/{{feature.snakeCase()}}_remote_source.dart';
 import '../data/repository/{{feature.snakeCase()}}_repository_impl.dart';
 
 final {{feature.camelCase()}}RemoteSource = {{feature.pascalCase()}}RemoteSource();
-final {{feature.camelCase()}}Repository = {{feature.pascalCase()}}Repository({{feature.camelCase()}}RemoteSource);
+final {{feature.camelCase()}}Repository = {{feature.pascalCase()}}RepositoryImpl({{feature.camelCase()}}RemoteSource);
